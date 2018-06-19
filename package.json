@@ -9,6 +9,7 @@
     "element-ui": "2.4.*",
     "font-awesome": "^4.7.0",
     "hchs-vue-charts": "1.2.8",
+    "hoek": "4.2.1",
     "html-webpack-plugin": "^2.28.0",
     "jquery": "3.2.*",
     "laravel-mix": "^0.11.4",
