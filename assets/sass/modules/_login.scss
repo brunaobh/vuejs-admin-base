@@ -1,0 +1,117 @@
+.login-bg__welcome-message {  
+  margin-left: 70px;
+  margin-bottom: 30px;
+  object-fit: contain;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #ffffff;
+  width: 70%;
+
+  @media (min-width: 1400px){
+    font-size: 48px;
+    padding-top: 4%;
+    margin-bottom: 87px;
+  }
+
+  @include media-breakpoint-down(xl) {
+    // margin-left: 29%;
+    // width: 310px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    font-size: 30px; // 36px;
+    padding-top: 2%;
+    margin-bottom: 40px;
+  }
+
+  @include media-breakpoint-down(md) {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 24px;
+    margin-left: 26%;  
+  }
+
+  @include media-breakpoint-down(xs) {
+    width: 280px;
+    margin-top: 0px;
+    margin-left: 22%;    
+  }
+  // @media (max-width: 480px) {
+  //   margin-left: 15%;
+  // }
+  // @media (max-width: 400px) {
+  //   margin-left: 6%;
+  //   width: 310px;
+  // }
+}
+
+.login-bg__container {
+  width: 360px;
+  height: 188px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 70px;
+  padding: 29px 40px 45px 40px;
+
+  @include media-breakpoint-down(lg) {
+    margin-left: 70px;
+  }
+
+  @include media-breakpoint-down(md) {
+    width: 260px;
+    margin-left: 20px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-left: 26%;    
+  }
+
+  @include media-breakpoint-down(xs) {
+    margin-left: 22%;    
+  }
+}
+
+.login-bg__info-message {
+  width: 234.6px;
+  font-size: 13px;
+  line-height: 1.54;
+  text-align: left;
+  color: #272832;
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+}
+
+.login-bg__button-container {
+  height: 40px; 
+  text-align: center; 
+  color: #fff; 
+  background-color: #4285f4; 
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.login-bg__button {
+  padding: 10px 10px 5px 10px; 
+  background-color: #fff; 
+  float: left; 
+  text-align: center; 
+}
+
+.login-bg__button-label {
+  line-height: 38px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
