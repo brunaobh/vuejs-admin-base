@@ -10,10 +10,30 @@ import Maintenance from './pages/Maintenance.vue';
 import NotFound from './pages/NotFoundPage.vue';
 import UnderConstruction from './pages/UnderConstruction.vue';
 
+// Ui-elements
+import Carousel from './ui/Carousel.vue';
+import Dialog from './ui/Dialog.vue';
+import Form from './ui/Form.vue';
+import Progress from './ui/Progress.vue';
+import Table from './ui/Table.vue';
+import Tabs from './ui/Tabs.vue';
+import Tag from './ui/Tag.vue';
+import Upload from './ui/Upload.vue';
+
 //  Routes
 const routes = [
   {path: '/', component: Main, name: 'main', meta: {requiresAuth: false}},
 
+  // Ui elements
+  {path: '/ui/carousel', component: Carousel, meta: {requiresAuth: false}},
+  {path: '/ui/dialog', component: Dialog, meta: {requiresAuth: false}},
+  {path: '/ui/forms', component: Form, meta: {requiresAuth: false}},
+  {path: '/ui/progress', component: Progress, meta: {requiresAuth: false}},
+  {path: '/ui/table', component: Table, meta: {requiresAuth: false}},
+  {path: '/ui/tabs', component: Tabs, meta: {requiresAuth: false}},
+  {path: '/ui/tag', component: Tag, meta: {requiresAuth: false}},
+  {path: '/ui/upload', component: Upload, meta: {requiresAuth: false}},
+  
   // Pages
   {path: '/pages/accessdenied', component: AccessDenied, meta: {requiresAuth: false}},
   {path: '/pages/error', component: ErrorPage, meta: {requiresAuth: false}},
