@@ -1,0 +1,36 @@
+// Page header
+.page-header {
+  background-color: $white;
+}
+
+.page-header--border-bottom {
+  border-bottom: 1px solid $gray-400;
+}
+
+.page-header--fixed {  
+  position: fixed;
+  z-index: $zindex-blocks;
+  right: 0;
+}
+
+.page-header__event--align-breadcrumb {
+  padding-left: 58px;  
+}
+
+.page-header__title {
+  font-weight: $font-weight-bold;
+  font-size: 13px;
+  text-align: left;
+  color: $black;
+  width: 450px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  @include media-breakpoint-down(md) {
+    width: 400px;
+  }
+  @include media-breakpoint-down(xs) {
+    width: 250px;
+  }
+}

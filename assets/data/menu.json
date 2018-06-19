@@ -1,0 +1,52 @@
+[{
+	"name": "Dashboard",
+	"path": "\/"
+}, {
+	"name": "Pages",
+	"items": [{
+		"title": "Access Denied",
+		"path": "\/pages\/accessdenied"
+	},{
+		"title": "Error",
+		"path": "\/pages\/error"
+	},{
+		"title": "Login",
+		"path": "\/pages\/login"
+	},{
+		"title": "Maintenance",
+		"path": "\/pages\/maintenance"
+	},{
+		"title": "Not found",
+		"path": "\/pages\/notfound"
+	},{
+		"title": "Under construction",
+		"path": "\/pages\/underconstruction"
+	}]
+}, {
+	"name": "Ui Elements",
+	"items": [{
+		"title": "Carousel",
+		"path": "\/ui\/carousel"
+	},{
+		"title": "Dialog",
+		"path": "\/ui\/dialog"
+	},{
+		"title": "Forms",
+		"path": "\/ui\/forms"
+	},{
+		"title": "Progress",
+		"path": "\/ui\/progress"
+	},{
+		"title": "Table",
+		"path": "\/ui\/table"
+	},{
+		"title": "Tabs",
+		"path": "\/ui\/tabs"
+	},{
+		"title": "Tag",
+		"path": "\/ui\/tag"
+	},{
+		"title": "Upload",
+		"path": "\/ui\/upload"
+	}]
+}]

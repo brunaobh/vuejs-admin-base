@@ -1,0 +1,9 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// FontAwesome
+$fa-font-path: "../../node_modules/font-awesome/fonts" !default;
+@import '~font-awesome/scss/font-awesome.scss';
+
+// element-ui
+@import "~element-ui/lib/theme-chalk/index.css";

@@ -1,0 +1,28 @@
+$navbar-height: 54px;
+
+.navbar {
+  font-weight: $font-weight-bold;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+  .navbar__avatar {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar {
+    height: $navbar-height;
+  }
+  .navbar__avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+  }
+  .nav-link--centralized {
+    line-height: 40px;
+  }
+}

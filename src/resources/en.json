@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "google": "Click bellow, to log in",
+    "login": "Log in",
+    "logout": "Log out",
+    "welcome": "Welcome"
+  },
+  "general": {
+    "button": {
+      "openDialog": "Click to open dialog"
+    }
+  },
+  "menu": {
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "pages": {
+      "options": {
+        "accessdenied": "Access Denied",
+        "error": "Error",
+        "login": "Login",
+        "maintenance": "Maintenance",
+        "notfound": "Not found",
+        "underconstruction": "Under construction"
+      },
+      "title": "Pages"
+    },
+    "uielements": {
+      "options": {
+        "carousel": "Carousel",
+        "dialog": "Dialog",
+        "forms": "Forms",
+        "progress": "Progress bar",
+        "table": "Table",
+        "tabs": "Tabs",
+        "tag": "Tag",
+        "upload": "Upload"
+      },
+      "title": "Ui Elements"
+    }
+  },
+  "message": {
+    "loading": "Loading",
+    "logout": "You have been logged out",
+    "notAllowed": "Access denied, you are now allowed to access this page. Sorry :(",
+    "notFound": "Ops... 404. We can not found your request",
+    "somethingWrong": "Something went wrong, sorry about that :(",
+    "underConstruction": "This page is under construction",
+    "underMaintenance": "Our app, is under maintenance, please come back later..."
+  }
+}
