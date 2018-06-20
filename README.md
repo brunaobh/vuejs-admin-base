@@ -24,7 +24,7 @@ Take a look at: [Learn Vue 2: Step By Step](https://laracasts.com/series/learn-v
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v5+ to run.
+Vuejs - Admin template requires [Node.js](https://nodejs.org/) v5+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
